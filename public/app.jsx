@@ -54,7 +54,7 @@ const app = feathers()
 
   render() {
     const users = this.props.users;
-
+    console.log(users)
     return <aside className="sidebar col col-3 flex flex-column flex-space-between">
       <header className="flex flex-row flex-center">
         <h4 className="font-300 text-center">
@@ -66,7 +66,7 @@ const app = feathers()
         {users.map(user =>
           <li>
             <a className="block relative" href="#">
-              <img src={user.avatar || PLACEHOLDER} className="avatar" />
+              <img src={user.avatar || PLACEHOLDER } className="avatar" />
               <span className="absolute username">{user.email}</span>
             </a>
           </li>
