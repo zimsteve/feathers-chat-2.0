@@ -27,7 +27,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isAuthenticated: false,
+      isAuthenticated: true,
       user: null,
       users: [],
       messages: []
