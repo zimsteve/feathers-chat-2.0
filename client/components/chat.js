@@ -3,7 +3,7 @@ const React = require('react')
 class Chat extends React.Component{
   render() {
     return (
-      <div>Chat</div>
+      <div><h1>CHAT!!!</h1></div>
     )
   }
 }

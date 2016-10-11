@@ -32,6 +32,6 @@ const api = feathers()
 domready(() => {
   ReactDOM.render(
     <App api={api}/>,
-    document.querySelector('main')
+    document.querySelector('body > main')
   )
 })

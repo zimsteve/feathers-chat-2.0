@@ -49,7 +49,7 @@ const app = feathers()
 
   const UserList = React.createClass({
   logout() {
-    app.logout().then(() => window.location.href = '/index.html');
+    // app.logout().then(() => window.location.href = '/index.html');
   },
 
   render() {

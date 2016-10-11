@@ -8,6 +8,6 @@
       "secret": "6juyCEPsu0wSPbJ0OIQpXAvQvF3grVy07/uKRns+tFh8AtUxyeezq3ktLMwPO57EWgr96Tsz4SkKqokViUoKbQ=="
     },
     "local": {},
-    "successRedirect": "/chat.html"
+    "successRedirect": "/chat"
   }
 }

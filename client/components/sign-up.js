@@ -16,7 +16,7 @@ class Signup extends React.Component {
 
   handleSubmit(ev) {
     ev.preventDefault()
-    //this.props.signUp()
+    this.props.signUp()
     console.log('the real ev', ev)
   }
 
