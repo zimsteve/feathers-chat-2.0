@@ -158,22 +158,22 @@ const ChatApp = React.createClass({
   }
 });
 
-app.authenticate().then(() => {
-  ReactDOM.render(<div id="app" className="flex flex-column">
-    <header className="title-bar flex flex-row flex-center">
-      <div className="title-wrapper block center-element">
-        <img className="logo" src="http://marketingland.com/wp-content/ml-loads/2014/08/cortana-logo-1920.png"
-          alt="Feathers Logo" />
-        <span className="title">Chat by Steve and Hikurangi</span>
-      </div>
-    </header>
-
-    <ChatApp />
-  </div>, document.body);
-}).catch(error => {
-  if(error.code === 401) {
-    window.location.href = '/login.html'
-  }
+// app.authenticate().then(() => {
+//   ReactDOM.render(<div id="app" className="flex flex-column">
+//     <header className="title-bar flex flex-row flex-center">
+//       <div className="title-wrapper block center-element">
+//         <img className="logo" src="http://marketingland.com/wp-content/ml-loads/2014/08/cortana-logo-1920.png"
+//           alt="Feathers Logo" />
+//         <span className="title">Chat by Steve and Hikurangi</span>
+//       </div>
+//     </header>
+//
+//     <ChatApp />
+//   </div>, document.body);
+// }).catch(error => {
+//   if(error.code === 401) {
+//     window.location.href = '/login.html'
+//   }
 
   console.error(error);
 });
