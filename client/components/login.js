@@ -18,7 +18,6 @@ class Login extends React.Component{
               <fieldset>
                 <input className="block" type="password" name="password" placeholder="password"/>
               </fieldset>
-
               <button type="submit" className="button button-primary block login">Login</button>
             </form>
           </div>
